@@ -1,0 +1,34 @@
+<html>
+  <head>
+    <title>classlist-perf-test</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="favicon.png">
+    <style type="text/css">
+      body { margin: 0; }
+      p {
+        font-family: monospace;
+        position: absolute;
+        z-index: 1;
+        color: #fff;
+        background-color: #999;
+        right: 10px;
+        padding: 10px;
+      }
+      .red {
+        background-color: red !important;
+      }
+      .r {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        background-color: grey;
+      }
+    </style>
+  </head>
+  <body>
+    <p out>...</p>
+    <div class="r" style="left:0px; top:0px;"></div>
+    <script src="bundle.js"></script>
+  </body>
+</html>
